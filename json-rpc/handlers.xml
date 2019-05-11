@@ -1376,7 +1376,10 @@
     <method name="updateGroupAttrs" auth_type="ADMIN" requires_perm="CHANGE GROUP" comment="">
       <input type="dict">
         <param name="group_name" type="str" comment="" />
-        <param name="attrs" type="dict" comment="" />
+        <param name="attrs" type="dict" comment="" >
+	      <attrs comment=" پارس پویش محترم لطفا آپدیت نمایید :-|">
+	      </attrs>
+	</param>
         <param name="to_del_attrs" type="list" length="-1" item_type="str" comment="" />
       </input>
       <output type="null" />
